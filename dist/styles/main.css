@@ -1,0 +1,93 @@
+#lucas-calendar .lucas-calendar {
+  background-image: url('../images/input-icon.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 103% 0;
+  height: 50px;
+  width: 400px;
+}
+#lucas-calendar .lucas-calendar-buttonGroup {
+  margin-bottom: 2%;
+  height: 12%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#lucas-calendar .lucas-calendar-buttonGroup button {
+  border: 0;
+  background-position: center;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  float: left;
+  margin: 1%;
+}
+#lucas-calendar .lucas-calendar-buttonGroup .calendar-button-YandM,
+#lucas-calendar .lucas-calendar-buttonGroup .calendar-button-month {
+  font-family: 微软雅黑;
+  color: white;
+  height: 100%;
+  width: 55%;
+  border: 2px solid #C5C0C0;
+}
+#lucas-calendar .lucas-calendar-buttonGroup .calendar-button-left,
+#lucas-calendar .lucas-calendar-buttonGroup .calendar-button-mleft {
+  background-image: url('../images/left_arrow.png');
+  height: 100%;
+  width: 19%;
+}
+#lucas-calendar .lucas-calendar-buttonGroup .calendar-button-right,
+#lucas-calendar .lucas-calendar-buttonGroup .calendar-button-mright {
+  background-image: url('../images/right_arrow.png');
+  height: 100%;
+  width: 19%;
+}
+#lucas-calendar table {
+  margin-top: 5%;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+#lucas-calendar table th,
+#lucas-calendar table td {
+  font-family: 微软雅黑;
+  text-align: center;
+  border: 1px solid;
+  border-color: #343434;
+  cursor: pointer;
+}
+#lucas-calendar .lucas-calendar-monthPanel {
+  background-color: #343434;
+}
+#lucas-calendar .lucas-calendar-monthPanel .lucas-calendar-buttonGroup {
+  margin-bottom: 7%;
+  height: 20%;
+}
+#lucas-calendar .lucas-calendar-monthPanel table {
+  height: 65%;
+  width: 90%;
+}
+#lucas-calendar .lucas-calendar-monthPanel table thead {
+  width: 100%;
+}
+#lucas-calendar .lucas-calendar-monthPanel table tr {
+  width: 100%;
+}
+#lucas-calendar .lucas-calendar-monthPanel table td {
+  height: 33%;
+  width: 25%;
+}
+#lucas-calendar .lucas-calendar-panel {
+  background-color: #343434;
+}
+#lucas-calendar .lucas-calendar-panel table {
+  height: 80%;
+  width: 90%;
+}
+#lucas-calendar .lucas-calendar-panel table th {
+  font-weight: normal;
+}
+#lucas-calendar .lucas-calendar-panel table td,
+#lucas-calendar .lucas-calendar-panel table th {
+  width: 13%;
+}

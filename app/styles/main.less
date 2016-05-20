@@ -1,0 +1,93 @@
+.set-size (@height,@width){
+	height: @height;
+	width: @width;
+}
+.horizontal-center () {
+	margin-right: auto;
+	margin-left: auto;
+}
+#lucas-calendar{
+	.lucas-calendar{
+
+		background-image: url('../images/input-icon.png');
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: 103% 0;
+
+		.set-size(50px,400px);
+	}
+	.lucas-calendar-buttonGroup {
+		margin-bottom: 2%;
+		.set-size(12%,90%);
+		.horizontal-center();
+		button {
+			border: 0;
+			background-position: center;
+			background-size: 50% 50%;
+			background-repeat: no-repeat;
+			background-color: transparent;
+			float: left;
+			margin: 1%;
+		}
+		.calendar-button-YandM,.calendar-button-month{
+			font-family: 微软雅黑;
+			color: white;
+			.set-size(100%,55%);
+			border: 2px solid #C5C0C0;
+		}
+		.calendar-button-left,.calendar-button-mleft {
+			background-image: url('../images/left_arrow.png');
+			.set-size(100%,19%);
+		}
+		.calendar-button-right,.calendar-button-mright {
+			background-image: url('../images/right_arrow.png');
+			.set-size(100%,19%);
+		}
+	}
+	table {
+		margin-top: 5%;
+		color: white;
+		.horizontal-center();
+		th,td {
+			font-family: 微软雅黑;
+			text-align: center;
+			border: 1px solid;
+			border-color: #343434;
+			cursor: pointer;			
+		}
+	}
+	.lucas-calendar-monthPanel {
+		.lucas-calendar-buttonGroup {
+			margin-bottom: 7%;
+			height: 20%;
+		}
+		background-color: #343434;
+		table {
+			.set-size(65%,90%);
+			thead {
+				width: 100%;
+			}
+			tr {
+				width: 100%;
+			}
+			td{
+				.set-size(33%,25%);
+			}
+		}		
+	}
+	.lucas-calendar-panel{
+		background-color: #343434;
+		table {
+
+			.set-size(80%,90%);
+			
+			th {
+				font-weight: normal;
+			}
+			td,th{
+				width: 13%;
+			}
+		}
+	}
+}
+
