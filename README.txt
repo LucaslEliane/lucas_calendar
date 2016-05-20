@@ -1,26 +1,17 @@
-Ê×ÏÈ½¨Á¢Á½¸öÎÄ¼ş¼Ğ:
-dist:ÎªÉú²ú»·¾³£¬ÓÃÀ´ÕıÊ½·¢²¼
-src :Îª¿ª·¢»·¾³£¬ÔÚ¿ª·¢»·¾³ÖĞĞ´´úÂë
 
-¸´ÖÆÈı¸öÎÄ¼şµ½»·¾³¸ùÄ¿Â¼£º
-.jshintrc		: jshint²å¼şµÄÅäÖÃÎÄ¼ş
-gulpfile.js		: gulpµÄÅäÖÃÎÄ¼ş
-package.json		: gulpµÄÖ§³Ö²å¼şÄÚÈİ
+/dist/scripts/main.jsä¸ºJavaScriptæºæ–‡ä»¶ï¼Œ
+/dist/styles/main.cssä¸ºæ ·å¼è¡¨æ–‡ä»¶ï¼Œ
 
-WIN+RÔËĞĞwindows¿ØÖÆÌ¨£¬ÇĞ»»µ½µ±Ç°µÄ»·¾³¸ùÄ¿Â¼£¬
-¾Ö²¿°²×°Gulpjs£º
-npm install gulp --save-dev
+javaScriptåˆå§‹åŒ–æ–¹å¼ï¼š
+var calendar = new Calendar({
+	width: '200px',   //éœ€è¦çš„æ—¥å†å®½åº¦
+	height: '20px',   //éœ€è¦çš„æ—¥å†é«˜åº¦
+	choose:function(date){    //ç‚¹é€‰æ—¥æœŸçš„å›è°ƒå‡½æ•°
+	}
+});
 
-°²×°bootstrapºÍangularjsµÄÇ°¶ËÒÀÀµ
-bower install angularjs bootstrap --save
-
-°²×°gulp²å¼ş£º
-npm install --save-dev autoprefixer browser-sync core-util-is 
-del gulp gulp-bower gulp-cache gulp-csso gulp-filter gulp-flatten 
-gulp-if gulp-imagemin gulp-jshint gulp-less gulp-load-plugins gulp-minify-css 
-gulp-minify-html gulp-postcss gulp-size gulp-uglify gulp-usemin 
-gulp-usemin2 gulp-useref inherits isarray jshint main-bower-files 
-postcss wrapper jshint-stylish
-
-
-cmdÇĞ»»µ½ÏîÄ¿¸ùÄ¿Â¼£¬ÔËĞĞgulp serveÃüÁî£¬ä¯ÀÀÆ÷Ë¢ĞÂ¿ÉÒÔÊ¹ÍøÒ³Ë¢ĞÂ£¬Ä¬ÈÏ¶Ë¿Ú9000
+HTMLè°ƒç”¨æ–¹æ³•ï¼š
+	<div id="lucas-calendar">
+	</div>
+	
+éœ€è¦jquery2.0+
